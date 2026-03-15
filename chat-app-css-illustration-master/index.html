@@ -46,14 +46,14 @@
       <!-- Phone frame -->
       <div class="relative w-[280px] bg-white rounded-[2.5rem] shadow-2xl overflow-hidden border-[12px] border-gray-200">
         <!-- Notch -->
-        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-28 h-6 bg-gray-900 rounded-b-2xl z-20"></div>
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-28 h-6 bg-white rounded-b-2xl z-20"></div>
 
         <!-- Chat app content -->
-        <div class="pt-8 min-h-[520px] flex flex-col">
+        <div class="pt-4 min-h-[520px] flex flex-col mx-2">
           <!-- Header -->
-          <div class="gradient-header px-4 py-4 flex items-center gap-3">
+          <div class="gradient-header rounded-[1.25rem] px-2 py-2 flex items-center gap-3">
             <button class="text-white p-1" aria-label="Back">
-              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+              <svg class="w-5 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
             </button>
             <img src="assets/avatar.png" alt="Samuel Green" class="w-10 h-10 rounded-full object-cover border-2 border-white/50 flex-shrink-0">
             <div class="flex-1 min-w-0">
@@ -69,19 +69,19 @@
           <div class="flex-1 bg-gray-100 px-3 py-4 space-y-3">
             <!-- Left bubble (receiver) -->
             <div class="flex justify-start">
-              <div class="max-w-[85%] bg-white rounded-2xl rounded-tl-md px-4 py-2.5 shadow-sm">
+              <div class="max-w-[85%] bg-[#E0BBE4] rounded-2xl rounded-tl-md px-4 py-2.5 shadow-sm">
                 <p class="text-gray-700 text-sm">That sounds great. I'd be happy with that.</p>
               </div>
             </div>
             <div class="flex justify-start">
-              <div class="max-w-[85%] bg-white rounded-2xl rounded-tl-md px-4 py-2.5 shadow-sm">
+              <div class="max-w-[85%] bg-[#E0BBE4] rounded-2xl rounded-tl-md px-4 py-2.5 shadow-sm">
                 <p class="text-gray-700 text-sm">Could you send over some pictures of your dog, please?</p>
               </div>
             </div>
 
             <!-- Right bubbles (sender) - dog pics -->
             <div class="flex justify-end">
-              <div class="max-w-[85%] bg-[#E0BBE4] rounded-2xl rounded-tr-md px-4 py-2.5 shadow-sm">
+              <div class="max-w-[85%] bg-white rounded-2xl rounded-tr-md px-4 py-2.5 shadow-sm">
                 <div class="flex gap-1.5 mb-2">
                   <img src="assets/dog1.png" alt="Dog" class="w-12 h-12 rounded-lg object-cover flex-shrink-0">
                   <img src="assets/dog2.png" alt="Dog" class="w-12 h-12 rounded-lg object-cover flex-shrink-0">
@@ -90,7 +90,7 @@
                 <p class="text-gray-700 text-sm">Here are a few pictures. She's a happy girl!</p>
               </div>
             </div>
-            <div class="flex justify-start">
+            <div class="flex justify-end">
               <div class="max-w-[85%] bg-white rounded-2xl rounded-tl-md px-4 py-2.5 shadow-sm">
                 <p class="text-gray-700 text-sm">Can you make it?</p>
               </div>
@@ -110,7 +110,7 @@
                 <span class="flex-1 text-sm font-medium">30 minute walk</span>
                 <span class="text-sm font-semibold">$29</span>
               </label>
-              <label class="flex items-center gap-3 rounded-xl px-4 py-3 bg-[#AF81C5] text-white cursor-pointer shadow-sm">
+              <label class="flex items-center gap-3 rounded-xl px-4 py-3 bg-[#8A2BE2] text-white cursor-pointer shadow-sm">
                 <span class="w-5 h-5 rounded-full border-2 border-white flex items-center justify-center"></span>
                 <span class="flex-1 text-sm font-medium">1 hour walk</span>
                 <span class="text-sm font-semibold">$49</span>
@@ -128,8 +128,7 @@
             </div>
           </div>
         </div>
-
-        <!-- Home indicator (mobile) -->
+ 
         <div class="pb-2 flex justify-center">
           <div class="w-32 h-1.5 bg-gray-300 rounded-full"></div>
         </div>
