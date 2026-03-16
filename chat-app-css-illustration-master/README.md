@@ -36,8 +36,9 @@ I chose the Chat app CSS illustration challenge that is rated intermediate.
 
 ## My process
 
-I started out designing the project with a standard external stylesheet, style.css, and then replacing as much of the CSS with bootstrap's grid system, components, and utility classes. I had the result looking almost perfect using regular css, and then I started methodically replacing the CSS with bootstrap classes. 
-Document blockers: As I thought I was almost done, I encountered issues. When I was working with the background image, the whole layout changed to a plain looking html page. As my first troubleshooting step, I went back to the index.html and did ctrl-Z to undo the last change. That had no effect. I tried undo with ctrl-Z a few more times, but I could not get the file back to the state it was in when it was close to being done. I fought with the index.html and style.css for several hours, so started over with a clean slate and decided to try implementing the soluiton with tailwindcss. 
+I started out designing the project with a standard external CSS stylesheet, style.css, and then replacing as much of the CSS with bootstrap's grid system, components, and utility classes. I had the result looking almost perfect using regular CSS, and then I started methodically replacing the CSS with bootstrap classes. 
+Document blockers: As I thought I was almost done, I encountered issues. When I was working with the background image, the whole layout changed to a plain looking html page. As my first troubleshooting step, I went back to the index.html and did ctrl-Z to undo the last change. That had no effect. I tried undo with ctrl-Z a few more times, but I could not get the file back to the state it was in when it was close to being done. I fought with the index.html and style.css for several hours, so I started over with a clean slate and decided to try implementing the soluiton with tailwindcss. 
+I have included the original files from the failed attempt to implement this fully with bootstrap just in case I figure out how to fix them in the future. Those files are called index_original.html and style_original.css.
 
 ### Built with
 
